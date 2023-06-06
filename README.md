@@ -17,7 +17,7 @@ My solutions to the [Ethernaut](https://ethernaut.openzeppelin.com/) challenges 
    npm install
    ```
 
-3. Replace the contents of the `.env` file with your own private key and RPC endpoint.
+3. Create a new `.env` file with your own private key and RPC endpoint, following the example provided in `.env.example`.
 
 4. Optional: Modify the `hardhat.config.ts` file to use a different node provider or testnet. By default, it uses the Infura node and Sepolia testnet.
 
@@ -25,7 +25,7 @@ My solutions to the [Ethernaut](https://ethernaut.openzeppelin.com/) challenges 
 
 The `contracts` directory contains all the contract files, and the `scripts` directory contains the scripts used to interact with the contracts.
 
-To run the solutions locally, use the following command:
+To test the solutions locally on a forked network, use the following command:
 
 ```bash
 npx hardhat run ./scripts/01-Fallback.ts
